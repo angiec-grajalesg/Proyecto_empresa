@@ -241,12 +241,12 @@ public class Empresa{
      * @param clientes
      */
     public Collection<Cliente> obtenerListaClientesMasculinos(LinkedList<Cliente> clientes){
-        LinkedList<Cliente> ClientesMasculinos = new LinkedList<>();
+        LinkedList<Cliente> clientesMasculinos = new LinkedList<>();
         for (Cliente cliente : clientes){
             if (cliente.getGenero("Masculino"));
-                ClientesMasculinos.add(cliente);
+                clientesMasculinos.add(cliente);
         }
-        return ClientesMasculinos;
+        return clientesMasculinos;
     }
    
     /**
